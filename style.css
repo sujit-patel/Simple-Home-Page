@@ -9,17 +9,21 @@ a {
     color: white;
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
+
 a:hover {
     color: rgba(216, 216, 216, 0.765);
 }
-img{
+
+img {
     padding: 20px;
 }
-:root{
-    --hhegith:12%;
+
+:root {
+    --hhegith: 12%;
 }
 
 
@@ -46,39 +50,40 @@ img{
     /* margin: 20px; */
     justify-content: space-between;
     height: var(--hhegith);
-    
+
     /* background-color: red; */
 }
 
 /* setting nav  */
-.container header .navbar{
+.container header .navbar {
     height: 100%;
     display: flex;
     align-items: center;
 }
-.container header .navbar ul{
+
+.container header .navbar ul {
     display: flex;
     /* padding-right: 10px; */
-    
+
 }
 
-.container header .navbar ul li{
+.container header .navbar ul li {
     padding-left: 50px;
 }
-.container header .navbar ul li a{
+
+.container header .navbar ul li a {
     font-size: 20px;
-    
 }
 
 /* logo setting  */
-.container header .logo{
+.container header .logo {
     height: 100%;
     display: flex;
     margin-left: 100px;
 }
 
 /* left logo setting  */
-.container header .cart-logo{
+.container header .cart-logo {
     height: 100%;
     display: flex;
     margin-right: 100px;
@@ -92,7 +97,7 @@ img{
 }
 
 /* text part  */
-.container .contain-part .ltext{
+.container .contain-part .ltext {
     /* height: 100%; */
     /* display: flex; */
     position: absolute;
@@ -100,24 +105,28 @@ img{
     left: 10%;
     width: 35%;
 }
-.container .contain-part .ltext h1{
+
+.container .contain-part .ltext h1 {
     color: rgb(241, 241, 241);
     font-size: 65px;
     margin-bottom: 20px;
     /* font-weight: lighter; */
-    font-family:sans-serif, monospace;
-    
+    font-family: sans-serif, monospace;
+
 }
-.container .contain-part .ltext h1 span{
+
+.container .contain-part .ltext h1 span {
     font-weight: lighter;
     font-size: 50px;
 }
-.container .contain-part .ltext p{
+
+.container .contain-part .ltext p {
     color: rgb(244, 244, 244);
     font-size: 20px;
 }
+
 /* button setting  */
-.container .contain-part .ltext .btn button{
+.container .contain-part .ltext .btn button {
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
@@ -126,68 +135,81 @@ img{
     /* margin-left: 20px; */
     /* justify-content: space-between; */
 }
-.container .contain-part .ltext .btn .btn1{
+
+.container .contain-part .ltext .btn .btn1 {
     margin-right: 20px;
     background-color: rgb(255, 221, 0);
 }
-.container .contain-part .ltext .btn .btn2 span{
+
+.container .contain-part .ltext .btn .btn2 span {
     display: inline-block;
     transform: rotate(90deg);
     margin-left: 10px;
     /* transform: rotate(turn); */
 }
-.container .contain-part .ltext .btn .btn2{
+
+.container .contain-part .ltext .btn .btn2 {
     color: white;
     background-color: rgb(67, 67, 67);
 }
 
 /* right part  */
-.container .contain-part .rimg{
+.container .contain-part .rimg {
     /* height: 100%; */
     width: 100%;
     display: flex;
     justify-content: right;
     /* overflow: hidden; */
 }
-.container .contain-part .rimg img{
+
+.container .contain-part .rimg img {
     height: 100%;
 }
 
-button:hover{
+button:hover {
     color: rgb(96, 96, 96);
 }
-.container .contain-part .ltext .btn .btn2:hover{
+
+.container .contain-part .ltext .btn .btn2:hover {
     color: rgba(255, 255, 255, 0.632);
 }
 
-@media(max-width:950px){
+@media(max-width:950px) {
+
     /* .container{
         width: auto;
     } */
-    .container .contain-part .ltext h1{
+    .container .contain-part .ltext h1 {
         font-size: 45px;
     }
-    .container .contain-part .ltext h1,.container .contain-part .ltext p{
+
+    .container .contain-part .ltext h1,
+    .container .contain-part .ltext p {
         color: rgb(180, 180, 255);
     }
-    .container .contain-part .ltext{
+
+    .container .contain-part .ltext {
         /* height: 100%; */
         left: 2%;
         width: 50%;
     }
-    .container .contain-part .rimg img{
+
+    .container .contain-part .rimg img {
         margin-right: -50px;
     }
 
 }
-@media(max-width:850px){
-    .container .contain-part .ltext p{
+
+@media(max-width:850px) {
+    .container .contain-part .ltext p {
         font-size: 15px;
     }
-    .container .contain-part .ltext h1{
+
+    .container .contain-part .ltext h1 {
         font-size: 35px;
     }
-    .container .contain-part .ltext{
+
+    .container .contain-part .ltext {
         width: 50%;
     }
 }
